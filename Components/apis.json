@@ -1,0 +1,19 @@
+{
+    "getServices":"https://diallink-server.herokuapp.com/vendors/getServices",
+    "vendorSignUp":"https://diallink-server.herokuapp.com/vendors/vendorSignUp",
+    "vendorLogin":"https://diallink-server.herokuapp.com/auth/vendorLogin",
+    "AccountStatus":"https://diallink-server.herokuapp.com/vendors/getAccountInfo",
+    "verifyAccount":"https://diallink-server.herokuapp.com/verifyUser",
+
+    "getVendorCompletedCalls":"https://diallink-server.herokuapp.com/callRoutes/getVendorCompletedCalls",
+    "getVendorActiveCalls":"https://diallink-server.herokuapp.com/callRoutes/getVendorActiveCalls",
+    "getIncomingCalls":"https://diallink-server.herokuapp.com/callRoutes/getVendorIncomingCalls",
+    "acceptCall":"https://diallink-server.herokuapp.com/callRoutes/acceptIncomingCalls",
+    "completeCall":"https://diallink-server.herokuapp.com/callRoutes/completeCalls",
+    
+    "getInvoices":"https://diallink-server.herokuapp.com/callRoutes/getVendorInvoices",
+    "payInvoices":"https://diallink-server.herokuapp.com/vendors/payInvoices",
+
+    "rejectCall":"https://diallink-server.herokuapp.com/callRoutes/rejectCall",
+    "approveVendor":"https://diallink-server.herokuapp.com/vendors/approveVendor"
+}
